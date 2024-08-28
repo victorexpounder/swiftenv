@@ -20,7 +20,7 @@ swiftEnv is a lightweight, dependency-free library for managing environment vari
 You can install Env Manager via npm:
 
 ```bash
-npm install env-manager
+npm install swiftenv
 ```
 ## Usage
 
@@ -68,23 +68,17 @@ npm install env-manager
 
 ## Function Reference
 
-| Function          | Parameters                 | DDescription                                     |
+| Function          | Parameters                 | Description                                      |
 |-------------------|----------------------------|--------------------------------------------------|
 |getEnv             |key: string, defaultValue?: |Retrieves the value of the specified environment  |
 |                   | string	                 |variable.If not found, returns defaultValue       |
-|-------------------|----------------------------|--------------------------------------------------|
 |setEnv             |key: string, value: string  |Sets or updates an environment variable in both   |
 |                   | filePath?: string	         | the process and env                              |
-|-------------------|----------------------------|--------------------------------------------------|
 |listEnv            |none                        | Returns an object containing all loaded          |
 |                   |         	                 | environment variables.                           |
-|-------------------|----------------------------|--------------------------------------------------|
 |validateEnv             keys: string[]:         |Validates that all specified keys are present in  |
 |                   |          	                 |the environment variable.If not throws error      |
-|-------------------|----------------------------|--------------------------------------------------|
 |numberEnv             key: string               |Converts the specified environment variable to a  |
 |                   |       	                 |number and returns it.                            |
-|-------------------|----------------------------|--------------------------------------------------|
 |removeEnv             key: string, filePath?: : |Removes an environment variable from both the     |
 |                   |    string                  |process and the .env file.                        |
-|-------------------|----------------------------|--------------------------------------------------|
