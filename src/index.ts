@@ -19,9 +19,13 @@ const loadEnv = (filePath: string = DEFAULT_ENV_FILE_PATH): void => {
       envContent.split('\n').forEach(line => {
         const trimmedLine = line.trim();
         if (trimmedLine && !trimmedLine.startsWith('#')) {
-          const [key, value] = trimmedLine.split('=');
-          if (key && value) {
-            process.env[key.trim()] = value.trim();
+          const delimiterIndex = trimmedLine.indexOf('=');
+          if (delimiterIndex !== -1) {
+            const key = trimmedLine.substring(0, delimiterIndex).trim();
+            const value = trimmedLine.substring(delimiterIndex + 1).trim();
+            if (key) {
+              process.env[key] = value;
+            }
           }
         }
       });
