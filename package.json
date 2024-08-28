@@ -1,7 +1,7 @@
 {
   "name": "swiftenv",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Lightweight, Dependency-Free Environment Variable Manager, allows you to easily load, get, set, update, remove, and validate environment variables directly from a .env file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -10,9 +10,16 @@
     "test": "jest",
     "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorexpounder/swiftenv.git"
+  },
+  "keywords": ["env", "environment", "variables", "swiftenv", "backend", "frontend"],
+  "author": "Eze Victor Expounder <victorexpounder@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorexpounder/swiftenv/issues"
+  },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
