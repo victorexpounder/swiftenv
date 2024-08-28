@@ -76,9 +76,9 @@ npm install swiftenv
 |                   | filePath?: string	         | the process and env                              |
 |listEnv            |none                        | Returns an object containing all loaded          |
 |                   |         	                 | environment variables.                           |
-|validateEnv             keys: string[]:         |Validates that all specified keys are present in  |
+|validateEnv        |     keys: string[]:        |Validates that all specified keys are present in  |
 |                   |          	                 |the environment variable.If not throws error      |
-|numberEnv             key: string               |Converts the specified environment variable to a  |
+|numberEnv          |   key: string              |Converts the specified environment variable to a  |
 |                   |       	                 |number and returns it.                            |
 |removeEnv             key: string, filePath?: : |Removes an environment variable from both the     |
 |                   |    string                  |process and the .env file.                        |
