@@ -1,7 +1,7 @@
 # swiftEnv
 
-[![npm version](https://badge.fury.io/js/swiftenv)](https://badge.fury.io/js/swiftenv)
-[![Build Status](https://github.com/victorexpounder/swiftenv/workflows/CI/badge.svg)](https://github.com/victorexpounder/swiftenv/actions)
+[![npm version](https://badge.fury.io/js/swiftenv.svg)](https://badge.fury.io/js/swiftenv)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/victorexpounder/swiftenv/node.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 swiftEnv is a lightweight, dependency-free library for managing environment variables. It provides simple utilities to load, get, set, update, remove, and validate environment variables directly from a `.env` file, offering a straightforward solution for environment configuration without relying on external dependencies.
