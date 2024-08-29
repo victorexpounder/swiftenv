@@ -1,6 +1,6 @@
 {
   "name": "swiftenv",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Lightweight, Dependency-Free Environment Variable Manager, allows you to easily load, get, set, update, remove, and validate environment variables directly from a .env file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
